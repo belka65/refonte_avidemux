@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+/* commun */
+body {
+    margin: 0;
+
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+header, footer,  main>.resume, main>.features, main>.news, main>.slide {
+    padding: 0 20%;
+}
+
+li {
+    list-style-type: none;
+}
+/* header */
+
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222831;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav li {
+    list-style: none;
+    margin-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav li a:hover {
+    list-style: none;
+    margin-left: 20px;
+    color: #fff;
+    padding: 10px 12px;
+    background-color: #00ADB5;
+    border-radius:7px;
+    box-shadow: 5px 6px #00656A;
+    
+}
+/* main */
+
+main .slide {
+    background-image: url('../img/bg-home.png');
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .downloadBlock p {
+    padding-bottom: 1rem;
+    color: #EEEEEE
+}
+
+main .downBtn {
+    border: 2px solid #fff;
+    padding: 0.8em 1.5em;
+    color: #EEEEEE;
+}
+
+main .downBtn:hover {
+    padding: 0.8em 2em;
+    transition: 0.5s padding;
+}
+
+main .downBtn:hover::after {
+    content : url('..//img/down.png'); 
+}
+
+main .captEcran img {
+    max-width:70%;
+    min-width: 30%;
+}
+
+/*main .captEcran img:hover {
+    max-width:75%;
+    min-width: 30%;
+    transition: 1s max-width;
+}*/
+
+main .resume h2 {
+    text-align: center;
+    text-transform: upperc;
+}
+
+main .resume h2 span {
+    background-color: #0088CC;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5px 15px
+
+}
+
+main .resume p {
+    text-align: center;
+    opacity : 0.8;
+    font-size: 1.6em;
+}
+
+/* main features */
+
+main .features>.featuresList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .features li {
+    padding-left: 1rem;
+
+}
+
+main .features li::marker {
+    content : url('..//img/ok.png');
+}
+
+/* ----main latest news -- */
+
+main .news>.latest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .news .latest>div {
+    width: 33%;
+    margin-bottom: 70px;
+}
+main .news span {
+    font-weight: bold;
+}
+
+main .news .latest a {
+    background-color: #393E46;
+    color: #fff;
+    padding: 12px 10px;
+    border-radius: 5px;
+}
+
+main .news .latest a:hover {
+    opacity: 0.8;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #393E46;
+}
+
+footer .aPropos {
+    width: 25%;
+}
+
+footer h4 {
+    color: #fff;
+    opacity: 0.9;
+}
+
+footer p {
+    color: #fff;
+    opacity: 0.5;
+}
+
+footer .footerLinks ul  {
+padding: 0;
+}
+
+footer .footerLinks li>a {
+    opacity: 0.5;
+    padding-bottom: 0.2em;
+    color: #EEEEEE;
+}
+
+footer .footerLinks li>a:hover {
+    opacity: 1;
+    color: #EEEEEE;
+}
+footer .followUs img {
+    width: 25px;
+    height:auto;
+    background-color: #EEEEEE;
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin-right:10px
+}
+
+footer .followUs ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+footer .followUs li img{
+    opacity: 0.5;
+}
+
+footer .followUs img[alt="Facebook"]:hover {
+    background-color: #4867AD; 
+    opacity: 1;
+}
+footer .followUs img[alt="Twitter"]:hover {
+    background-color: #33B0F2;
+    opacity: 1;
+}
+footer .followUs img[alt="Youtube"]:hover {
+    background-color: red; 
+    opacity: 1;
+}
+footer .followUs img[alt="Github"]:hover {
+    background-color: #FFF;
+    opacity: 1;
+}
+footer .followUs img[alt="Reddit"]:hover {
+    background-color: #F23C17;
+    opacity: 1;
+}
+
+
+
