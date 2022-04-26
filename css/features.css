@@ -1,3 +1,235 @@
-main {
-    width: 80%;
-    margin: 0 auto;}
+@media (max-width:576px) {
+
+            /* commun */
+               main {
+                display: column;
+                justify-content: space-between;
+                align-items: left;
+                text-align: center;
+                padding: 0 5%;
+                margin-bottom: 50px;
+            
+            }
+    
+            h4 {
+                color: #00ADB5;
+            }
+            
+            /* custum */
+    
+            main #col1 {
+                width: 95%;
+                display: column;
+                background-color: #fff;
+                box-shadow: 0 0 1em #000;
+                padding: 8vh 1vh 1vh 1vh;
+            }
+    
+            main #col1 #liste .fonct {
+                display: column;
+                justify-content: space-between;
+                align-items:center;
+                text-align: center;
+                padding: 0 5vh;
+            }
+    
+            main #col2 {
+                width: 95%;
+                text-align:center;
+                opacity: 0.8;
+            }
+    
+            main #col2 li {
+                list-style-type: disc;
+                text-align:left;
+            }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    /* commun */
+    main {
+        display: column;
+        justify-content: space-between;
+        align-items: left;
+        text-align: center;
+        padding: 0 5%;
+        margin-bottom: 50px;
+    
+    }
+
+    h4 {
+        color: #00ADB5;
+    }
+    
+    /* custum */
+
+    main #col1 {
+        width: 95%;
+        display: column;
+        background-color: #fff;
+        box-shadow: 0 0 1em #000;
+        padding: 8vh 1vh 1vh 1vh;
+    }
+
+    main #col1 #liste .fonct {
+        display: column;
+        justify-content: space-between;
+        align-items:center;
+        text-align: center;
+        padding: 0 5vh;
+    }
+
+    main #col2 {
+        width: 95%;
+        text-align:center;
+        opacity: 0.8;
+    }
+
+    main #col2 li {
+        list-style-type: disc;
+        text-align:left;
+    }
+}
+
+@media  (min-width: 768px) and (max-width: 991px){
+    /* commun */
+    main {
+        display: column;
+        justify-content: space-between;
+        align-items: left;
+        text-align: center;
+        padding: 0 5%;
+        margin-bottom: 50px;
+    
+    }
+
+    h4 {
+        color: #00ADB5;
+    }
+    
+    /* custum */
+
+    main #col1 {
+        width: 95%;
+        display: column;
+        background-color: #fff;
+        box-shadow: 0 0 1em #000;
+        padding: 0.5vh 1vh;
+    }
+
+    main #col1 #liste .fonct {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        text-align: center;
+        padding: 0 5vh;
+    }
+
+    main #col2 {
+        width: 95%;
+        text-align:center;
+        opacity: 0.8;
+    }
+
+    main #col2 li {
+        list-style-type: disc;
+        text-align:left;
+    }
+}
+@media  (min-width: 992px) and (max-width:1199px) {
+
+    /* commun */
+    main {
+        display: flex;
+        justify-content: space-between;
+        align-items: left;
+        text-align: center;
+        padding: 0 5%;
+        margin-bottom: 50px;
+    
+    }
+
+    h4 {
+        color: #00ADB5;
+    }
+    
+    /* custum */
+
+    main #col1 {
+        width: 70%;
+        display: column;
+        background-color: #fff;
+        box-shadow: 0 0 1em #000;
+        padding: 0.5vh 1vh;
+    }
+
+    main #col1 #liste .fonct {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        text-align: center;
+        padding: 0 5vh;
+    }
+
+    main #col2 {
+        width: 25%;
+        text-align:left;
+        opacity: 0.8;
+    }
+
+    main #col2 li {
+        list-style-type: disc;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+            /* commun */
+        main {
+            padding: 0 20%;
+            text-align: center;
+        }
+
+        h4 {
+            color: #00ADB5;
+        }
+
+        /* custum */
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: left;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+        main #col1 {
+            width: 70%;
+            display: column;
+            background-color: #fff;
+            box-shadow: 0 0 1em grey;
+        }
+
+        main #col1 #liste .fonct {
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            text-align: left;
+        }
+
+        main #col2 {
+            width: 28%;
+            text-align:left;
+            opacity: 0.8
+        }
+
+        main #col2 li {
+            list-style-type: disc;
+        }
+
+}
+
+
+
+

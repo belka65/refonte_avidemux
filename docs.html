@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avidemex : logiciel de montage Open Source</title>
+    <title>Documentation Avidemux</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/docs.css">
 </head>
 <body>
     <div class="container">
             <!-- header -->
             <header>
                 <div class="logo">
-                    <h1>
-                        <a href="index.html">Avidemux</a>
-                    </h1>
+                    <a href="/index.html">Avidemux</a>
                 </div>
                 <nav>
+                    <label for="toggle">☰</label>
+                    <input type="checkbox" id="toggle">
                     <ul>
                       <li>
                           <a href="features.html">Fonctionnalités</a>
@@ -35,24 +36,114 @@
                 </nav>
             </header>
         
-        <!--main-->
+        <!--main colomne 1-->
 
         <main>
-
-           
+            <div class="col1">
+                
+                <h1>Documentation</h1>
+                <div id="cut">
+                    <h3>Rogner/Diviser/Couper des Vidéos</h3>
+                    <hr>
+                    <p>Cliquez sur Fichier et Ouvrir, puis choisissez le clip vidéo que vous souhaitez couper, puis assurez-vous que vous êtes en mode "Copie". Cela vous sera utile d'utiliser la vidéo préexistante plutôt que de la réencoder dans un nouveau fichier et cela vous fera sûrement gagner beaucoup de temps.</p>
+                    <img src="./img/docs/avidemux-2.webp" alt="mode copie">
+                    <p>Ensuite, déplacez-vous jusqu'à ce que vous trouviez le cadre souhaité où vous souhaitez découper le fichier. Après avoir obtenu le cadre approprié, appuyez sur le bouton "A" présent en bas de la barre d'outils pour appliquer le marqueur A au cadre actuel.</p>
+                    <img src="./img/docs/avidemux-3.webp" alt="marqueur A">
+                    <p>Utilisez la ligne chronologique pour progresser jusqu'à la fin du clip que vous créez. Notez que ce cadre n'a pas besoin d'être de type "I". Cliquez sur le bouton B lorsque vous avez terminé.</p>
+                    <img src="./img/docs/avidemux-4.webp" alt="marqueur B">
+                </div>
+                <div id="join">
+                    <h3>Joignez des vidéos avec Avidemux</h3>
+                    <hr>
+                    <p>Ajoutez votre fichier, puis cliquez sur Fichier/Ajouter. Vous découvrirez que la durée totale de la vidéo augmentera. Enfin, cliquez sur Fichier/Enregistrer/Enregistrer la vidéo ... ou simplement Ctrl + S pour commencer à combiner les fichiers vidéo ajoutés à un nouveau.</p>
+                    <img src="./img/docs/avidemux-9.webp" alt="cliquez sur file puis append">
+                </div>
+                <div id="swing">
+                    <h3>Faire Pivoter des Vidéos</h3>
+                    <hr>
+                    <p>Cliquez sur Fichier et Ouvrir, puis sélectionnez le fichier vidéo que vous souhaitez faire pivoter. Choisissez ensuite le format de la vidéo que vous souhaitez générer. Après cela, choisissez des filtres, dans la liste des filtres, sélectionnez "transformer". Après cela, appuyez sur le bouton "Rotation", sélectionnez la manière souhaitée pour faire pivoter votre vidéo, puis appuyez sur "OK" et "Fermer". Cela fermera la fenêtre du Gestionnaire de Filtre Vidéo. Ensuite, vous pouvez enregistrer le fichier sur votre lieu de destination et n'oubliez pas de lui donner un nom.</p>
+                    <img src="./img/docs/avidemux-1.webp" alt="option rotate dans menu transform">
+                </div>
+                 <div id="effects">
+                    <h3>Ajouter des Effets aux Vidéos</h3>
+                    <hr>
+                    <p>Toujours dans le panneau de gauche, cliquez sur le bouton "Filtre". Vous pouvez maintenant choisir les effets que vous souhaitez, du redimensionnement, du recadrage, de l'étiquetage, de l'ajout de couleurs, de la suppression du bruit à l'ajout de netteté.</p>
+                    <img src="./img/docs/avidemux-10.webp" alt="ajouter des effets aux videos">
+                 </div>
+                 <div id="convert">
+                     <h3>Convertir des Vidéos</h3>
+                     <hr>
+                     <p>Recherchez le panneau Format et sélectionnez le format cible dans la liste déroulante. Les formats de sortie pris en charge incluent MP4, MPEG, AVI XVID, AVI-DV, MPG, MKV, FLV, etc. Enfin, cliquez sur Fichier/Enregistrer/Enregistrer la vidéo ... ou simplement Ctrl + S pour commencer l'encodage.</p>
+                     <img src="./img/docs/avidemux-11.webp" alt="convertir le format des videos">
+                </div>
+                <div id="export">
+                        <h3>Exporter Différents Formats Audio/Vidéo</h3>
+                        <hr>
+                        <p>Le fichier vidéo se compose de deux parties, à savoir: le conteneur, qui détermine le type de fichier, et le codec. Pour jouer sur un appareil spécifique, par exemple, le mobile, le conteneur et le codec doivent être pris en charge par le lecteur vidéo, sinon cela ne fonctionnera pas correctement.</p>
+                        <h4 id="exportAud">Formats Audio tel que MP3</h4>
+                        <p>Toujours utiliser le format audio .MP3 pour enregistrer des vidéos dans Avidemux car l'audio .mp3 est pris en charge par la plupart des appareils dans le monde et la qualité du son est plutôt bien dans ce format.
+                        </p>
+                        <img src="./img/docs/avidemux-5.webp" alt="format audio supportés">
+                        <br>
+                        <h4 id="exportVid">Formats Vidéo Tel que MP4</h4>
+                        <p>Pour enregistrer la sortie vidéo MP4, nous devons effectuer les étapes suivantes afin d'obtenir de meilleurs résultats des clips:</p>
+                        <ul>
+                            <li>Sélectionnez l'option MPEG 4 AVC dans la liste déroulante de vidéo.
+                            </li>
+                            <li>Appuyez sur l'option de configuration, ensuite une nouvelle fenêtre de configuration X264 apparaîtra à l'écran.
+                            </li>
+                            <li>Choisissez Average Bitrate (Bitrate Moyen) dans la liste affichée et fixez Bitrate Moyen à 10000.
+                            </li>
+                            <li>Appuyez sur OK en bas de l'écran pour fermer le Bitrate Moyen.
+                            </li>
+                            <li>Choisissez MP3 dans la liste audio déroulante.
+                            </li>
+                            <li>Après cela, appuyez sur l'option filtres, puis définissez le rééchantillonnage à 48000 et appuyez sur OK
+                            </li>
+                            <li>Sélectionnez MP4 dans la liste déroulante qui apparaît après avoir cliqué sur Format.
+                            </li>
+                            <li>Maintenant, tout est fait et vous pouvez enregistrer la vidéo en cliquant sur Enregistrer ou en appuyant sur la touche de raccourci du clavier Ctrl-S et assurez-vous d'ajouter le nom de l'extension .MP4.
+                            </li>
+                        </ul>
+                        <p>J'ai toujours les meilleurs résultats en effectuant les étapes données, mais tout ce dont vous avez besoin est un ordinateur puissant avec un bon processeur et une bonne RAM pour effectuer un meilleur encodage.</p>
+                        <p>Pour plus de formats audio supportés, veuillez vérifier la capture d'écran:</p>
+                        <img src="./img/docs/avidemux-6.webp" alt="formats videos supportés">
+                </div>    
+            
+            </div>
+            <!--aside fixed-->
+            <div class="col2">
+                <div class="fixed">
+                    <h4>Sommaire</h4>
+                <ul>
+                    <li><a href="#cut">Rogner/Diviser/Couper des Vidéos</a></li>
+                    <li><a href="#join">Joignez des vidéos</a></li>
+                    <li><a href="#swing">Faire Pivoter des Vidéos</a></li>
+                    <li><a href="#effects">Ajouter des Effets aux Vidéos</a></li>
+                    <li><a href="#convert">Convertir des Vidéos</a></li>
+                    <li><a href="#export">Exporter Différents Formats Audio/Vidéo</a>
+                        <ul>
+                            <li><a href="#exportAud"> Formats Audio tel que MP3</a></li>
+                            <li><a href="#exportVid"> Formats Audio tel que MP4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
             
         </main>
         
-        <!--footer -->
-        <footer>
+       <!--footer -->
+       <footer>
 
-            <div class="aPropos">
-                <h4>A propos d'Avidemux</h4>
-                <p>
-                    Avidemux est un logiciel vidéo, permettant d'effectuer des coupes, d'appliquer des filtres et de ré-encoder des vidéos.
-                </p>
+        <div class="aPropos">
+            <h4>A propos d'Avidemux</h4>
+            <p>
+                Avidemux est un logiciel vidéo, permettant d'effectuer des coupes, d'appliquer des filtres et de ré-encoder des vidéos.
+            </p>
 
-            </div>
+        </div>
+        <div class="linFol">
             <div class="footerLinks">
                 <h4>Liens utiles</h4>
                 <ul>
@@ -67,37 +158,37 @@
                 <h4>Suivez-nous sur:</h4>
                 <ul>
                     <li>
-                        <a href="https://facebook.com/">
+                        <a href="https://facebook.com/" target="_blank">
                             <img src="img/facebook.svg" alt="Facebook">
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/">
+                        <a href="https://twitter.com/" target="_blank">
                             <img src="img/twitter.svg" alt="Twitter">
                         </a>
                     </li>
                     <li>
-                        <a href="https://youtube.com/">
+                        <a href="https://www.youtube.com/watch?v=k4045qJNPMM" target="_blank">
                             <img src="img/youtube.svg" alt="Youtube">
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/">
+                        <a href="https://github.com/mean00/avidemux2" target="_blank">
                             <img src="img/github.svg" alt="Github">
                         </a>
                     </li>
                     <li>
-                        <a href="https://reddit.com/">
+                        <a href="https://www.reddit.com/r/Avidemux/" target="_blank">
                             <img src="img/reddit.svg" alt="Reddit">
                         </a>
                     </li>
                 </ul>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-    
-    </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</div>
+
 </body>
 </html>

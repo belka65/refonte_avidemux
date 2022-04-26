@@ -1,0 +1,503 @@
+@media (max-width:576px) {
+
+     /* commun */
+
+     main {
+        padding: 0 5%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* custum */
+    /* section download version actuelle */
+
+    main #downSection {
+        text-align: center;
+        background: linear-gradient(#00ADB5, #393E46);
+        border-radius:5px;
+        height: 42vh;
+        
+    }
+
+    main #downSection h2 {
+        padding-top: 6vh;
+        color: #fff;
+    }
+
+    main #downSection a {
+        padding: 10px 30px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    main #downSection a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 1;
+        box-shadow: 0 0 1em #000;
+    }
+
+    main #downSection .btn {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    main #downSection .btn a {
+        margin: 10px 0;
+    }
+
+/* old */
+
+    main #oldVersion  {
+        display: grid;
+    }
+
+    main #oldVersion .old  {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main #oldVersion .old>div {
+        padding: 0 15px;
+    }
+
+    main #oldVersion .btn .winBtn {
+        background-color: #0055A4;
+    }
+    main #oldVersion .btn .macBtn {
+        background-color: #7FBA00;
+    }
+    main #oldVersion .btn .linBtn {
+        background-color: #EF4135;
+    }
+
+    main #oldVersion .btn a {
+        padding: 8px 20px;
+        border: 1px solid #fff;
+        box-shadow: 0 0 0.5em #000;
+        margin: 0 5px;
+        color: #fff;
+    }
+
+    main #oldVersion .btn a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        
+    }
+
+    main #oldVersion ul {
+        padding: 0;
+    }
+
+    main #oldVersion li {
+        list-style:inside;
+        text-align:left;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+     /* commun */
+
+     main {
+        padding: 0 6%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* custum */
+    /* section download version actuelle */
+
+    main #downSection {
+        text-align: center;
+        background: linear-gradient(#00ADB5, #393E46);
+        border-radius:5px;
+        height: 42vh;
+        
+    }
+
+    main #downSection h2 {
+        padding-top: 6vh;
+        color: #fff;
+    }
+
+    main #downSection a {
+        padding: 10px 30px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    main #downSection a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 1;
+        box-shadow: 0 0 1em #000;
+    }
+
+    main #downSection .btn {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    main #downSection .btn a {
+        margin: 10px 0;
+    }
+
+/* old */
+
+    main #oldVersion  {
+        display: grid;
+    }
+
+    main #oldVersion .old  {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main #oldVersion .old>div {
+        padding: 0 15px;
+    }
+
+    main #oldVersion .btn .winBtn {
+        background-color: #0055A4;
+    }
+    main #oldVersion .btn .macBtn {
+        background-color: #7FBA00;
+    }
+    main #oldVersion .btn .linBtn {
+        background-color: #EF4135;
+    }
+
+    main #oldVersion .btn a {
+        padding: 8px 20px;
+        border: 1px solid #fff;
+        box-shadow: 0 0 0.5em #000;
+        margin: 0 5px;
+        color: #fff;
+    }
+
+    main #oldVersion .btn a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        
+    }
+
+    main #oldVersion ul {
+        padding: 0;
+    }
+
+    main #oldVersion li {
+        list-style:inside;
+        text-align:left;
+    }
+}
+
+@media  (min-width: 768px) and (max-width: 991px){
+     /* commun */
+
+     main {
+        padding: 0 7%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* custum */
+    /* section download version actuelle */
+
+    main #downSection {
+        text-align: center;
+        background: linear-gradient(#00ADB5, #393E46);
+        border-radius:5px;
+        box-shadow: 0 0 0.5em;
+        height: 38vh;
+        
+    }
+
+    main #downSection h2 {
+        padding-top: 6vh;
+        color: #fff;
+    }
+
+    main #downSection a {
+        padding: 10px 30px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    main #downSection a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 1;
+        box-shadow: 0 0 1em #000;
+    }
+
+    main #downSection .btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    main #downSection .btn a {
+        margin: 10px 0;
+    }
+
+/* old */
+
+    main #oldVersion  {
+        display: grid;
+    }
+
+    main #oldVersion .old  {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+    }
+
+    main #oldVersion .old>div {
+        padding: 0 15px;
+    }
+
+    main #oldVersion .btn .winBtn {
+        background-color: #0055A4;
+    }
+    main #oldVersion .btn .macBtn {
+        background-color: #7FBA00;
+    }
+    main #oldVersion .btn .linBtn {
+        background-color: #EF4135;
+    }
+
+    main #oldVersion .btn a {
+        padding: 8px 20px;
+        border: 1px solid #fff;
+        box-shadow: 0 0 0.5em #000;
+        margin: 0 5px;
+        color: #fff;
+    }
+
+    main #oldVersion .btn a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        
+    }
+
+    main #oldVersion ul {
+        padding: 0;
+    }
+
+    main #oldVersion li {
+        list-style:inside;
+    }
+}
+
+@media  (min-width: 992px) and (max-width:1199px) {
+
+    /* commun */
+
+    main {
+        padding: 0 10%;
+        margin: 0 auto;
+        
+    }
+
+    /* custum */
+    /* section download version actuelle */
+
+    main #downSection {
+        text-align: center;
+        background: linear-gradient(#00ADB5, #393E46);
+        border-radius:5px;
+        box-shadow: 0 0 0.5em;
+        height: 38vh;
+        
+    }
+
+    main #downSection h2 {
+        padding-top: 6vh;
+        color: #fff;
+    }
+
+    main #downSection a {
+        padding: 10px 30px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    main #downSection a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 1;
+        box-shadow: 0 0 1em #000;
+    }
+
+    main #downSection .btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    main #downSection .btn a {
+        margin: 10px 0;
+    }
+
+/* old */
+
+    main #oldVersion  {
+        display: grid;
+    }
+
+    main #oldVersion .old  {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+    }
+
+    main #oldVersion .old>div {
+        padding: 0 15px;
+    }
+
+    main #oldVersion .btn .winBtn {
+        background-color: #0055A4;
+    }
+    main #oldVersion .btn .macBtn {
+        background-color: #7FBA00;
+    }
+    main #oldVersion .btn .linBtn {
+        background-color: #EF4135;
+    }
+
+    main #oldVersion .btn a {
+        padding: 8px 20px;
+        border: 1px solid #fff;
+        box-shadow: 0 0 0.5em #000;
+        margin: 0 5px;
+        color: #fff;
+    }
+
+    main #oldVersion .btn a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        
+    }
+
+    main #oldVersion ul {
+        padding: 0;
+    }
+
+    main #oldVersion li {
+        list-style:inside;
+    }
+}
+
+@media (min-width: 1200px) {
+
+      /* commun */
+
+      main  {
+        padding: 0 20%;
+        margin: 0 auto;
+    }
+
+    /* custum */
+    /* section download version actuelle */
+
+    main #downSection {
+        text-align: center;
+        background: linear-gradient(#00ADB5, #393E46);
+        box-shadow: 0 0 1em;
+        border-radius:5px;
+        height: 30vh;
+    }
+
+    main #downSection h2 {
+        padding-top: 5vh;
+    }
+
+    main #downSection a {
+        padding: 10px 30px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    main #downSection a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        color: #fff;
+        opacity: 1;
+        box-shadow: 0 0 1em #000;
+    }
+
+    main #downSection .btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+/* old */
+
+    main #oldVersion  {
+        display: grid;
+    }
+
+    main #oldVersion .old  {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main #oldVersion .old>div {
+        padding: 0 15px;
+    }
+
+    main #oldVersion .btn .winBtn {
+        background-color: #0055A4;
+    }
+    main #oldVersion .btn .macBtn {
+        background-color: #7FBA00;
+    }
+    main #oldVersion .btn .linBtn {
+        background-color: #EF4135;
+    }
+
+    main #oldVersion .btn a {
+        padding: 8px 20px;
+        border: 1px solid #fff;
+        box-shadow: 0 0 0.5em #000;
+        margin: 0 5px;
+        color: #fff;
+    }
+
+    main #oldVersion .btn a:hover {
+        padding: 12px 35px;
+        border: 1px solid #fff;
+        
+    }
+
+    main #oldVersion ul {
+        padding: 0;
+    }
+
+    main #oldVersion li {
+        list-style:inside;
+    }
+}

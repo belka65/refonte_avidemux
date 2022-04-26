@@ -1,0 +1,580 @@
+/* gère le css main  index.html */
+
+@media (max-width:576px) {
+    main> .resume, .features, .news {
+        padding: 0 5%;
+    }
+
+    main .slide {
+        background-image: url('../img/bg-home.png');
+        flex-direction: column;
+        height:50vh;
+    }
+    
+    main .downloadBlock {
+        text-align: center;
+        padding-top:20vh;
+    }
+    main .downloadBlock p {
+        color: #EEEEEE;
+        margin-bottom: 2em;
+    }
+    
+    main .downloadBlock .downBtn {
+        border: 2px solid #fff;
+        padding: 0.8em 1.5em;
+        color: #EEEEEE;
+        opacity: 0.8;
+    }
+
+    main .downloadBlock .downBtn:hover {
+        box-shadow: 0 0 2em #000;
+        opacity: 1;
+    }
+
+    main .captEcran img {
+       display: none;
+       opacity: 0;
+    }
+    
+    main .resume h2 {
+        text-align: center;
+    }
+    
+    main .resume h2 span {
+        background-color: #00ADB5;
+        color: #fff;
+        font-size: 1em;
+        padding: 2px 5px;    
+    }
+    
+    main .resume p {
+        text-align: center;
+        opacity : 0.8;
+        font-size: 1.6em;
+    }
+    
+    /* main features */
+    
+    main .features {
+        text-align: center;
+    }
+    
+    main .features>.featuresList {
+        display: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .features li {
+        padding-left: 1rem;
+    }
+    
+    main .features li::marker {
+        content : url('..//img/ok.png');
+    }
+    
+    /* ----main latest news -- */
+    
+    main .news {
+        text-align: center;
+    }
+
+    main .news>.latest {
+        display: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .news .latest>div {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    main .news span {
+        font-weight: bold;
+    }
+    
+    main .news .latest a {
+        background-color: #393E46;
+        color: #fff;
+        padding: 12px 10px;
+        border-radius: 5px;
+    }
+    
+    main .news .latest a:hover {
+        opacity: 0.8;
+    }
+}
+
+/************************************************************************************/
+
+@media (min-width: 577px) and (max-width: 767px) {
+    main> .resume, .features, .news {
+        padding: 0 8%;
+    }
+
+    main .slide {
+        background-image: url('../img/bg-home.png');
+        flex-direction: column;
+        height:50vh;
+    }
+    
+    main .downloadBlock {
+        text-align: center;
+        padding-top:15vh;
+    }
+    main .downloadBlock p {
+        color: #EEEEEE;
+        margin-bottom: 2em;
+    }
+    
+    main .downloadBlock .downBtn {
+        border: 2px solid #fff;
+        padding: 0.8em 1.5em;
+        color: #EEEEEE;
+        opacity: 0.8;
+    }
+
+    main .downloadBlock .downBtn:hover {
+        box-shadow: 0 0 2em #000;
+        opacity: 1;
+    }
+
+    main .captEcran img {
+       display: none;
+       opacity: 0;
+    }
+    
+    main .resume h2 {
+        text-align: center;
+    }
+    
+    main .resume h2 span {
+        background-color: #00ADB5;
+        color: #fff;
+        font-size: 1em;
+        padding: 3px 5px;    
+    }
+    
+    main .resume p {
+        text-align: center;
+        opacity : 0.8;
+        font-size: 1.6em;
+    }
+    
+    /* main features */
+
+    main .features {
+        text-align: center;
+    }
+    
+    main .features>.featuresList {
+        display: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .features li {
+        text-align: left;
+    }
+    
+    main .features li::before {
+        content : url('..//img/ok.png');
+        padding-right: 0.5em;
+    }
+    
+    /* ----main latest news -- */
+    
+    main .news {
+        text-align: center;
+    }
+
+    main .news>.latest {
+        display: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .news .latest>div {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    
+    main .news span {
+        font-weight: bold;
+        color: #00ADB5;
+        opacity: 0.8;
+    }
+    
+    main .news .latest a {
+        background-color: #393E46;
+        color: #fff;
+        padding: 12px 10px;
+        border-radius: 5px;
+    }
+    
+    main .news .latest a:hover {
+        opacity: 0.8;
+    }
+}
+
+/**********************************************************************************/
+
+@media  (min-width: 768px) and (max-width: 991px){
+
+    /* main général */
+
+    main> .resume, .features, .news {
+        padding: 0 10%;
+    }
+    /* main slide */
+
+    main .slide {
+        background-image: url('../img/bg-home.png');
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height:50vh;
+    }
+    
+    main .downloadBlock {
+        width: 70%;
+        margin: 0 10%;
+    }
+    main .downloadBlock p {
+        color: #EEEEEE;
+        margin-bottom: 2em;
+    }
+    
+    main .downloadBlock .downBtn {
+        border: 2px solid #fff;
+        padding: 0.8em 1.5em;
+        color: #EEEEEE;
+        opacity: 0.8;
+    }
+
+    main .downloadBlock .downBtn:hover {
+        box-shadow: 0 0 2em #000;
+        opacity: 1;
+    }
+
+    main .captEcran img {
+        max-width:75%;
+    }
+    
+    main .captEcran img:hover {
+        box-shadow: 0 0 2.5em #000;
+        transform: rotateZ(-2deg);
+        max-width: 80%;
+        transition: 0.5s max-width;
+
+    }
+
+    /* main résumé prog */
+
+    main .resume h2 {
+        text-align: center;
+    }
+    
+    main .resume h2 span {
+        background-color: #00ADB5;
+        color: #fff;
+        font-size: 1.2em;
+        padding: 5px 10px;    
+    }
+    
+    main .resume p {
+        text-align: center;
+        opacity : 0.8;
+        font-size: 1.6em;
+    }
+    
+    /* main fonctionnalitées */
+    
+    main .features>.featuresList {
+        display: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .features li {
+        text-align: left;
+    }
+    
+    main .features li::before {
+        content : url('..//img/ok.png');
+        padding-right: 0.5em;
+    }
+    
+    /* ----main derniers news -- */
+    
+    main .news>.latest {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    main .news .latest>div {
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    main .news span {
+        font-weight: bold;
+        color: #00ADB5;
+        opacity: 0.8;
+    }
+    
+    main .news .latest a {
+        background-color: #393E46;
+        color: #fff;
+        padding: 12px 10px;
+        border-radius: 5px;
+    }
+    
+    main .news .latest a:hover {
+        opacity: 0.8;
+    }
+}
+
+@media  (min-width: 992px) and (max-width:1199px) {
+
+    /* main général */
+
+    main> .resume, .features, .news {
+        padding: 0 10%;
+    }
+    /* main slide */
+
+    main .slide {
+        background-image: url('../img/bg-home.png');
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height:50vh;
+    }
+    
+    main .downloadBlock {
+        width: 70%;
+        margin: 0 10%;
+    }
+    main .downloadBlock p {
+        color: #EEEEEE;
+        margin-bottom: 2em;
+    }
+    
+    main .downloadBlock .downBtn {
+        border: 2px solid #fff;
+        padding: 0.8em 1.5em;
+        color: #EEEEEE;
+        opacity: 0.8;
+    }
+
+    main .downloadBlock .downBtn:hover {
+        box-shadow: 0 0 2em #000;
+        opacity: 1;
+    }
+
+    main .captEcran img {
+        max-width:75%;
+    }
+    
+    main .captEcran img:hover {
+        box-shadow: 0 0 2.5em #000;
+        transform: rotateZ(2deg);
+        max-width: 85%;
+        transition: 0.7s max-width;
+
+    }
+
+    /* main résumé prog */
+
+    main .resume h2 {
+        text-align: center;
+    }
+    
+    main .resume h2 span {
+        background-color: #00ADB5;
+        color: #fff;
+        font-size: 1.1em;
+        padding: 5px 10px;
+        box-shadow: 0 0 0.4em #000;
+    }
+    
+    main .resume p {
+        text-align: center;
+        opacity : 0.8;
+        font-size: 1.6em;
+    }
+    
+    /* main fonctionnalitées */
+    
+    main .features>.featuresList {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    main .features li {
+        text-align: left;
+    }
+    
+    main .features li::before {
+        content : url('..//img/ok.png');
+        padding-right: 0.5em;
+    }
+    
+    /* ----main derniers news -- */
+    
+    main .news>.latest {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .news .latest>div {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        width: 30%;
+    }
+
+    main .news span {
+        font-weight: bold;
+        color: #00ADB5;
+        opacity: 0.8;
+    }
+    
+    main .news .latest a {
+        background-color: #393E46;
+        color: #fff;
+        padding: 12px 10px;
+        border-radius: 5px;
+    }
+    
+    main .news .latest a:hover {
+        opacity: 0.8;
+    }
+}
+
+/*********************************************************************/
+
+@media (min-width: 1200px) {
+    
+    /* main général */
+
+    /* main slide */
+    main .slide {
+        background-image: url('../img/bg-home.png');
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height:50vh;
+    }
+    
+    main .downloadBlock {
+        width: 70%;
+        margin: 0 10%;
+    }
+    main .downloadBlock p {
+        color: #EEEEEE;
+        margin-bottom: 2em;
+    }
+    
+    main .downloadBlock .downBtn {
+        border: 2px solid #fff;
+        padding: 0.8em 1.5em;
+        color: #EEEEEE;
+        opacity: 0.8;
+    }
+
+    main .downloadBlock .downBtn:hover {
+        box-shadow: 0 0 2em #000;
+        opacity: 1;
+    }
+
+    main .captEcran img {
+        max-width:75%;
+    }
+    
+    main .captEcran img:hover {
+        box-shadow: 0 0 2.5em #000;
+        transform: rotateZ(2deg);
+        max-width: 90%;
+        transition: 1s max-width ;
+        transition: 0.5s transform;
+
+    }
+    
+    /* main résumé prog */
+
+    main .resume h2 {
+        text-align: center;
+        text-transform: upperc;
+    }
+    
+    main .resume h2 span {
+        background-color: #00ADB5;
+        color: #fff;
+        font-size: 1.2em;
+        padding: 5px 15px;
+        box-shadow: 0 0 0.4em #000;
+
+    }
+    
+    main .resume p {
+        text-align: center;
+        opacity : 0.8;
+        font-size: 1.6em;
+    }
+    
+    /* main features */
+    
+    main .features>.featuresList {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .features li {
+        padding-left: 1rem;
+    
+    }
+    
+    main .features li::marker {
+        content : url('..//img/ok.png');
+    }
+    
+    /* ----main derniers news -- */
+    
+    main .news>.latest {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .news .latest>div {
+        width: 33%;
+        margin-bottom: 70px;
+    }
+    main .news span {
+        font-weight: bold;
+    }
+    
+    main .news .latest a {
+        background-color: #393E46;
+        color: #fff;
+        padding: 12px 10px;
+        border-radius: 5px;
+    }
+    
+    main .news .latest a:hover {
+        opacity: 0.8;
+    }
+}

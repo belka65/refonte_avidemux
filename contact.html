@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avidemex : logiciel de montage Open Source</title>
+    <title>Avidemux : logiciel de montage Open Source</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 <body>
     <div class="container">
             <!-- header -->
             <header>
                 <div class="logo">
-                    <h1>
-                        <a href="index.html">Avidemux</a>
-                    </h1>
+                    <a href="/index.html">Avidemux</a>
                 </div>
                 <nav>
+                    <label for="toggle">☰</label>
+                    <input type="checkbox" id="toggle">
                     <ul>
                       <li>
                           <a href="features.html">Fonctionnalités</a>
@@ -38,7 +39,37 @@
         <!--main-->
 
         <main>
+            <h1>Informations</h1>
+            
+            <div class="cont1">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.10760163784!2d2.1046838159682673!3d49.02756047930462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6f556960ae86d%3A0xb10f7491f7b58f8a!2sIFOCOP%20-%20Centre%20de%20Cergy%20Pontoise!5e0!3m2!1sfr!2sfr!4v1651011951088!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="adresse">
+                    <div>
+                        <h2>Ifocop ERAGNY</h2>
+                        <p>Parc d'activité des Bellevues</p>
+                        <p>Allée Rosa Luxemburg</p>
+                        <p>(10 avenue du gros chêne)</p>
+                        <p> CS 20069 ERAGNY-SUR-OISE CEDEX</p>
+                        <p> 95612 CERGY-PONTOISE CEDEX</p>
+                    </div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
 
+            <h2>Nous contacter</h2>
+            <p>Besoin d'aide? Bug logiciel ou demande de nouvelles fonctionnalités?</p>
+            <p>utilisez le formulaire ci-dessous pour nous contacter</p>
+            <form>
+                <div>
+                    <label for="nom"></label>
+                    <input type="email">
+
+                </div>
+            </form>
+            <div class="reponse"></div>
            
             
         </main>
@@ -53,51 +84,52 @@
                 </p>
 
             </div>
-            <div class="footerLinks">
-                <h4>Liens utiles</h4>
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="features.html">Fonctionnalités</a></li>
-                    <li><a href="docs.html">Documentation</a></li>
-                    <li><a href="download.html">Téléchargement</a></li>
-                    <li><a href="contact.html">Contactez-nous</a></li>
-                </ul>
-            </div>
-            <div class="followUs">
-                <h4>Suivez-nous sur:</h4>
-                <ul>
-                    <li>
-                        <a href="https://facebook.com/">
-                            <img src="img/facebook.svg" alt="Facebook">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/">
-                            <img src="img/twitter.svg" alt="Twitter">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://youtube.com/">
-                            <img src="img/youtube.svg" alt="Youtube">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/">
-                            <img src="img/github.svg" alt="Github">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://reddit.com/">
-                            <img src="img/reddit.svg" alt="Reddit">
-                        </a>
-                    </li>
-                </ul>
+            <div class="linFol">
+                <div class="footerLinks">
+                    <h4>Liens utiles</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="features.html">Fonctionnalités</a></li>
+                        <li><a href="docs.html">Documentation</a></li>
+                        <li><a href="download.html">Téléchargement</a></li>
+                        <li><a href="contact.html">Contactez-nous</a></li>
+                    </ul>
+                </div>
+                <div class="followUs">
+                    <h4>Suivez-nous sur:</h4>
+                    <ul>
+                        <li>
+                            <a href="https://facebook.com/" target="_blank">
+                                <img src="img/facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="img/twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=k4045qJNPMM" target="_blank">
+                                <img src="img/youtube.svg" alt="Youtube">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/mean00/avidemux2" target="_blank">
+                                <img src="img/github.svg" alt="Github">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.reddit.com/r/Avidemux/" target="_blank">
+                                <img src="img/reddit.svg" alt="Reddit">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </footer>
 
     
     </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
