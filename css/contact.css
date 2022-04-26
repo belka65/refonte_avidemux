@@ -1,0 +1,24 @@
+main {
+    margin: 0 auto;
+    padding: 0 20%;
+    text-align: center;
+}
+
+main .cont1 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+main .map {
+    border: 1px solid #000;
+    box-shadow: 0 0 1em;
+}
+
+main .adresse {
+    text-align: left;
+}
+
+main .adresse div>p:nth-child(2)::before {
+    content: url("../img/map-location-solid.svg");
+}

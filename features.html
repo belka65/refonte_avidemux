@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avidemex : logiciel de montage Open Source</title>
+    <title>Les fonctionnalités d'Avidemux </title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/features.css">
 </head>
@@ -13,11 +13,11 @@
             <!-- header -->
             <header>
                 <div class="logo">
-                    <h1>
-                        <a href="index.html">Avidemux</a>
-                    </h1>
+                    <a href="/index.html">Avidemux</a>
                 </div>
                 <nav>
+                    <label for="toggle">☰</label>
+                    <input type="checkbox" id="toggle">
                     <ul>
                       <li>
                           <a href="features.html">Fonctionnalités</a>
@@ -39,24 +39,111 @@
         <!--main-->
 
         <main>
-            <h1>Les Fonctionnalités de Avidemux</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequuntur est quod eveniet at modi maiores alias cum natus, non omnis nemo, adipisci eligendi culpa expedita odio. Illo necessitatibus amet nisi distinctio adipisci reprehenderit, voluptatum porro laudantium et possimus, magni accusamus, voluptate voluptates voluptas ea! Quam, amet deleniti. Quibusdam, maiores laudantium aliquam nobis similique consectetur omnis ratione in? At magni, quos error aperiam similique repellat possimus fugiat repudiandae eum a.</p>
-
-
-           
             
+           <div id="col1">
+            <h1>Les fonctionnalités</h1>
+                <div id="liste">
+                    <div class="fonct">
+                        <div>
+                            <img src="/img/features/feature-recording-150x150.png" alt="enregistrement son">
+                        </div>
+                        <div>
+                            <h4>Enregistrement</h4>
+                            <p>Avidemux peut enregistrer de l'audio en direct via un microphone ou une table de mixage, ou numériser des enregistrements à partir d'autres médias.</p>
+                        </div>
+                    </div>
+                    <div class="fonct">
+                        <div>
+                            <img src="/img/features/feature-export-150x150.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Importer / Exporter</h4>
+                            <p>Importez, éditez et combinez des fichiers audio. Exportez vos enregistrements dans de nombreux formats de fichiers différents, y compris plusieurs fichiers à la fois.</p>
+                        </div>
+                    </div>
+                    <div class="fonct">
+                        <div>
+                            <img src="/img/features/feature-quality-150x150.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Qualité du son</h4>
+                            <p>Prend en charge 16 bits, 24 bits et 32 bits. Les taux d'échantillonnage et les formats sont convertis à l'aide d'un rééchantillonnage et d'un tramage de haute qualité.</p>
+                        </div>
+                    </div>
+                    <div class="fonct">
+                        <div>
+                            <img src="/img/features/feature-plugins-150x150.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Les plug-ins</h4>
+                            <p>Prise en charge des plug-ins d'effet LADSPA, LV2, Nyquist, VST et Audio Unit. Les effets peuvent être facilement modifiés dans un éditeur de texte - ou vous pouvez même écrire votre propre plug-in.</p>
+                        </div>
+                    </div>
+                    <div class="fonct">
+                        <div>
+                            <img src="/img/features/feature-editing-150x150.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Edition</h4>
+                            <p>Edition facile avec Couper, Copier, Coller et Supprimer. Egalement un nombre illimité d'annulations (et de rétablissements) séquentielles dans la session pour revenir en arrière d'un nombre quelconque d'étapes.</p>
+                        </div>
+                    </div>
+                    <div class="fonct">
+                        <div>
+                            <img src="/img/features/feature-effects-150x150.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Les effets</h4>
+                            <p>Aperçu en temps réel des effets LADSPA, LV2, VST et Audio Unit (macOS). Plug-in Manager gère l'installation des plug-ins et l'ajout/suppression d'effets et de générateurs dans les menus.</p>
+                        </div>
+                    </div>
+                    <div class="fonct">
+                        <div>
+                            <img src="/img/features/feature-accessibility-150x150.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Accessibilité</h4>
+                            <p>Les pistes et les sélections peuvent être entièrement manipulées à l'aide du clavier. Large gamme de raccourcis clavier.</p>
+                        </div>
+                    </div>
+                    <div class="fonct">
+                        <div>
+                            <img src="/img/features/feature-analysis-150x150.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Analyse</h4>
+                            <p>Mode d'affichage Spectrogramme pour visualiser et sélectionner les fréquences. Fenêtre Plot Spectrum pour une analyse détaillée des fréquences. Prise en charge des plug-ins d'analyse Vamp.</p>
+                        </div>
+                    </div>
+
+                </div>
+           </div>
+           <div id="col2">
+               <h3>Participez!</h3>
+               <p>Intéressé par le codage ? Vous  voulez rejoindre la communauté vidéo du logiciel libre?</p>
+               <p>Avidemux est à la recherche de nouveaux développeurs !</p>
+               <p>
+                La communauté de Avidemux grandit et vous pouvez en faire partie. Voici les premières étapes qui vous guideront pour rejoindre l’équipe de développement:</p>
+                <ul>
+                    <li>Installez <a href="/download.html">la dernière version</a> de développement.</li>
+                    <li>Testez-le et vérifiez s’il y a quelque chose que vous voudriez améliorer.</li>
+                    <li>Dites-nous ce que vous souhaitez faire en nous rejoignant sur la liste de diffusion ou en utilisant la chaîne Telegram réservée au dévelopeurs.</li>
+                </ul>
+                <p>Nous espérons avoir de vos nouvelles bientôt ! </p>
+           </div>
         </main>
         
-        <!--footer -->
-        <footer>
+       <!--footer -->
+       <footer>
 
-            <div class="aPropos">
-                <h4>A propos d'Avidemux</h4>
-                <p>
-                    Avidemux est un logiciel vidéo, permettant d'effectuer des coupes, d'appliquer des filtres et de ré-encoder des vidéos.
-                </p>
+        <div class="aPropos">
+            <h4>A propos d'Avidemux</h4>
+            <p>
+                Avidemux est un logiciel vidéo, permettant d'effectuer des coupes, d'appliquer des filtres et de ré-encoder des vidéos.
+            </p>
 
-            </div>
+        </div>
+        <div class="linFol">
             <div class="footerLinks">
                 <h4>Liens utiles</h4>
                 <ul>
@@ -71,37 +158,37 @@
                 <h4>Suivez-nous sur:</h4>
                 <ul>
                     <li>
-                        <a href="https://facebook.com/">
+                        <a href="https://facebook.com/" target="_blank">
                             <img src="img/facebook.svg" alt="Facebook">
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/">
+                        <a href="https://twitter.com/" target="_blank">
                             <img src="img/twitter.svg" alt="Twitter">
                         </a>
                     </li>
                     <li>
-                        <a href="https://youtube.com/">
+                        <a href="https://www.youtube.com/watch?v=k4045qJNPMM" target="_blank">
                             <img src="img/youtube.svg" alt="Youtube">
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/">
+                        <a href="https://github.com/mean00/avidemux2" target="_blank">
                             <img src="img/github.svg" alt="Github">
                         </a>
                     </li>
                     <li>
-                        <a href="https://reddit.com/">
+                        <a href="https://www.reddit.com/r/Avidemux/" target="_blank">
                             <img src="img/reddit.svg" alt="Reddit">
                         </a>
                     </li>
                 </ul>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-    
-    </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</div>
+
 </body>
 </html>
