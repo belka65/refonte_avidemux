@@ -1,24 +1,564 @@
-main {
-    margin: 0 auto;
-    padding: 0 20%;
-    text-align: center;
+@media (max-width:576px) {
+    main  {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 5%;
+        flex-direction: column;
+    }
+    
+    main #bann {
+        text-align: center;
+        opacity: 0.5;
+        border-radius:5px;
+    }
+    
+    main #bann h1 {
+        padding-top:5vh;
+    }
+    
+    main #formDock form {
+        flex-direction: column;
+        margin: 5vh 0;
+    }
+    
+    main #formDock form> div {
+        margin: 10px 0;
+    }
+    
+    main #formDock form #nom {
+        width: 20rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #email {
+        width: 20rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #commentaire {
+        width: 20rem;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    
+    main #formDock form .btn {
+        width: 20rem;
+        height: 35px;
+        background-color: #00ADB5;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    main #formDock  .response {
+        color: #000;
+        font-size: 1rem;
+        font-weight: bold;
+        box-shadow: 0 0 1em grey;
+        padding: 0 20px;
+    
+    }
+    
+    /***************************************************/
+    
+    main #docker h2 {
+        opacity: 0.6;
+    }
+    
+    main #docker .cont {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 0 0.5em grey;
+        background-color: #fff;
+    }
+    
+    main #docker .cont .adresse {
+        text-align: left;
+    }
+    
+    main #docker .cont .adresse .adresseBefore::before {
+        content: url('../img/map-location-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .numBefore::before {
+        content: url('../img/phone-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .mailBefore::before {
+        content: url('../img/at-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse  {
+        padding-left : 5px;
+        padding: 0 5px;
+        padding-bottom: 20px;
+        opacity: 0.7;
+    }
+
+    main #docker {
+        margin-bottom: 7vh;
+    }
 }
 
-main .cont1 {
-    display: flex;
-    justify-content: space-evenly;
+@media (min-width: 577px) and (max-width: 767px) {
 
+    main  {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 7%;
+        flex-direction: column;
+    }
+    
+    main #bann {
+        text-align: center;
+        opacity: 0.5;
+        border-radius:5px;
+    }
+    
+    main #bann h1 {
+        padding-top:5vh;
+    }
+    
+    main #formDock form {
+        flex-direction: column;
+        margin: 5vh 0;
+    }
+    
+    main #formDock form> div {
+        margin: 10px 0;
+    }
+    
+    main #formDock form #nom {
+        width: 25rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #email {
+        width: 25rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #commentaire {
+        width: 25rem;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    
+    main #formDock form .btn {
+        width: 25rem;
+        height: 35px;
+        background-color: #00ADB5;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    main #formDock  .response {
+        color: #000;
+        font-size: 1rem;
+        font-weight: bold;
+        box-shadow: 0 0 1em grey;
+        padding: 0 20px;
+    
+    }
+    
+    /***************************************************/
+    
+    main #docker h2 {
+        opacity: 0.6;
+    }
+    
+    main #docker .cont {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 0 0.5em grey;
+        background-color: #fff;
+    }
+    
+    main #docker .cont .adresse {
+        text-align: left;
+    }
+    
+    main #docker .cont .adresse .adresseBefore::before {
+        content: url('../img/map-location-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .numBefore::before {
+        content: url('../img/phone-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .mailBefore::before {
+        content: url('../img/at-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse  {
+        padding-left : 5px;
+        padding: 0 5px;
+        padding-bottom: 20px;
+        opacity: 0.7;
+    }
+
+    main #docker {
+        margin-bottom: 7vh;
+        padding: 0 10%;
+    }
 }
 
-main .map {
-    border: 1px solid #000;
-    box-shadow: 0 0 1em;
-}
+@media  (min-width: 768px) and (max-width: 991px){
+    main  {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 7%;
+        flex-direction: column;
+    }
+    
+    main #bann {
+        text-align: center;
+        opacity: 0.5;
+        border-radius:5px;
+    }
+    
+    main #bann h1 {
+        padding-top:5vh;
+    }
+    
+    main #formDock form {
+        flex-direction: column;
+        margin: 5vh 0;
+    }
+    
+    main #formDock form> div {
+        margin: 10px 0;
+    }
+    
+    main #formDock form #nom {
+        width: 25rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #email {
+        width: 25rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #commentaire {
+        width: 25rem;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    
+    main #formDock form .btn {
+        width: 25rem;
+        height: 35px;
+        background-color: #00ADB5;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    main #formDock  .response {
+        color: #000;
+        font-size: 1rem;
+        font-weight: bold;
+        box-shadow: 0 0 1em grey;
+        padding: 0 20px;
+    
+    }
+    
+    /***************************************************/
+    
+    main #docker h2 {
+        opacity: 0.6;
+    }
+    
+    main #docker .cont {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 0 0.5em grey;
+        background-color: #fff;
+    }
+    
+    main #docker .cont .adresse {
+        text-align: left;
+    }
+    
+    main #docker .cont .adresse .adresseBefore::before {
+        content: url('../img/map-location-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .numBefore::before {
+        content: url('../img/phone-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .mailBefore::before {
+        content: url('../img/at-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse  {
+        padding-left : 5px;
+        padding: 0 5px;
+        padding-bottom: 20px;
+        opacity: 0.7;
+    }
 
-main .adresse {
-    text-align: left;
+    main #docker {
+        margin-bottom: 7vh;
+        padding: 0 10%;
+    }
 }
+@media  (min-width: 992px) and (max-width:1199px) {
+    main  {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 7%;
+        flex-direction: column;
+    }
+    
+    main #bann {
+        text-align: center;
+        opacity: 0.5;
+        border-radius:5px;
+    }
+    
+    main #bann h1 {
+        padding-top:5vh;
+    }
+    
+    main #formDock form {
+        flex-direction: column;
+        margin: 5vh 0;
+    }
+    
+    main #formDock form> div {
+        margin: 10px 0;
+    }
+    
+    main #formDock form #nom {
+        width: 30rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #email {
+        width: 30rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #commentaire {
+        width: 30rem;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    
+    main #formDock form .btn {
+        width: 30rem;
+        height: 35px;
+        background-color: #00ADB5;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    main #formDock  .response {
+        color: #000;
+        font-size: 1rem;
+        font-weight: bold;
+        box-shadow: 0 0 1em grey;
+        padding: 0 20px;
+    
+    }
+    
+    /***************************************************/
+    
+    main #docker h2 {
+        opacity: 0.6;
+    }
+    
+    main #docker .cont {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 0 0.5em grey;
+        background-color: #fff;
+    }
+    
+    main #docker .cont .adresse {
+        text-align: left;
+    }
+    
+    main #docker .cont .adresse .adresseBefore::before {
+        content: url('../img/map-location-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .numBefore::before {
+        content: url('../img/phone-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .mailBefore::before {
+        content: url('../img/at-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse  {
+        padding-left : 5px;
+        padding: 0 5px;
+        padding-bottom: 20px;
+        opacity: 0.7;
+    }
 
-main .adresse div>p:nth-child(2)::before {
-    content: url("../img/map-location-solid.svg");
+    main #docker {
+        margin-bottom: 7vh;
+        padding: 0 10%;
+    }
+}
+@media (min-width: 1200px) {
+    main  {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 20%;
+        flex-direction: column;
+    }
+    
+    main #bann {
+        text-align: center;
+        background-image: url('../img/subtle-prism.svg');
+        opacity: 0.5;
+        box-shadow: 0 0 1em;
+        border-radius:5px;
+        height: 30vh;
+    }
+    
+    main #bann h1 {
+        padding-top:5vh;
+        opacity: 1;
+    }
+    
+    main #formDock form {
+        flex-direction: column;
+        margin: 5vh 0;
+    }
+    
+    main #formDock form> div {
+        margin: 10px 0;
+    }
+    
+    main #formDock form #nom {
+        width: 30rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #email {
+        width: 30rem;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    main #formDock form #commentaire {
+        width: 30rem;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+    
+    main #formDock form .btn {
+        width: 30rem;
+        height: 35px;
+        background-color: #00ADB5;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    main #formDock  .response {
+        color: #000;
+        font-size: 1rem;
+        font-weight: bold;
+        box-shadow: 0 0 1em grey;
+    
+    }
+    
+    /***************************************************/
+    
+    main #docker h2 {
+        opacity: 0.6;
+    }
+    
+    main #docker .cont {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 0 0.5em grey;
+        background-color: #fff;
+    }
+    
+    main #docker .cont .adresse {
+        text-align: left;
+    }
+    
+    main #docker .cont .adresse .adresseBefore::before {
+        content: url('../img/map-location-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .numBefore::before {
+        content: url('../img/phone-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse .mailBefore::before {
+        content: url('../img/at-solid.svg');
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+    
+    main #docker .cont .adresse  {
+        padding-left : 5px;
+        padding: 0 5px;
+        opacity: 0.7;
+    }
 }
