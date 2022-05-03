@@ -18,59 +18,72 @@
                 <nav>
                     <label for="toggle">☰</label>
                     <input type="checkbox" id="toggle">
+
                     <ul>
-                      <li>
-                          <a href="features.html">Fonctionnalités</a>
-                      </li>
-                      <li>
-                          <a href="docs.html">Documentation</a>
-                      </li>
-                      <li>
-                          <a href="download.html">Téléchargement</a>
-                      </li>
-                      <li>
-                          <a href="contact.html">Contact</a>
-                      </li>
-                      
-                    </ul>
+                        <li>
+                            <a href="features.html">Fonctionnalités</a>
+                        </li>
+                        <li>
+                            <a href="docs.html">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="download.html">Téléchargement</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        
+                      </ul>
                 </nav>
             </header>
         
-        <!--main-->
+        <!-- main -->
 
         <main>
-            <h1>Informations</h1>
-            
-            <div class="cont1">
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.10760163784!2d2.1046838159682673!3d49.02756047930462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6f556960ae86d%3A0xb10f7491f7b58f8a!2sIFOCOP%20-%20Centre%20de%20Cergy%20Pontoise!5e0!3m2!1sfr!2sfr!4v1651011951088!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="adresse">
-                    <div>
-                        <h2>Ifocop ERAGNY</h2>
-                        <p>Parc d'activité des Bellevues</p>
-                        <p>Allée Rosa Luxemburg</p>
-                        <p>(10 avenue du gros chêne)</p>
-                        <p> CS 20069 ERAGNY-SUR-OISE CEDEX</p>
-                        <p> 95612 CERGY-PONTOISE CEDEX</p>
-                    </div>
-                    <div></div>
-                    <div></div>
-                </div>
+            <div id="bann">
+                <h1>Contactez-nous</h1>
             </div>
+            <div id="formDock">
+                <h2>Via mail</h2>
+                <p>Contactez notre support téchnique via mail</p>
+                
+                <form>
+                    <div class="name">
+                        <input type="text" id="nom" class="nom" placeholder="Nom" required>
+                    </div>
+                    <div classe="mail">
+                        <input type="email" id="email" class="email" placeholder="Email" required>
+                    </div>
+                    <div class="comm">
+                        <textarea id="commentaire" class="commentaire" rows="10" placeholder="Votre message"></textarea>
+                    </div>
+                    <input type="submit" class="btn">
+                </form>
 
-            <h2>Nous contacter</h2>
-            <p>Besoin d'aide? Bug logiciel ou demande de nouvelles fonctionnalités?</p>
-            <p>utilisez le formulaire ci-dessous pour nous contacter</p>
-            <form>
-                <div>
-                    <label for="nom"></label>
-                    <input type="email">
+                <div class="response"></div>
 
+            <div id="docker">
+                <h2>coordonnées</h2>
+                <div class="cont">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.10760163784!2d2.1046838159682673!3d49.02756047930462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6f556960ae86d%3A0xb10f7491f7b58f8a!2sIFOCOP%20-%20Centre%20de%20Cergy%20Pontoise!5e0!3m2!1sfr!2sfr!4v1651011951088!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="adresse">
+                        <div>
+                            <h3>Ifocop ERAGNY</h3>
+                            <p class="adresseBefore">Parc d'activité des Bellevues</p>
+                            <p>Allée Rosa Luxemburg</p>
+                            <p> CS 20069 ERAGNY-SUR-OISE CEDEX</p>
+                            <p> 95612 CERGY-PONTOISE CEDEX</p>
+                        </div>
+                        <div class="numBefore">01 30 37 88 33</div>
+                        <div>
+                            <a href="mailto:eragny@ifocop.fr" class="mailBefore">eragny@ifocop.fr</a>
+                        </div>
+                    </div>
                 </div>
-            </form>
-            <div class="reponse"></div>
-           
+
+            </div>
             
         </main>
         
@@ -130,6 +143,6 @@
 
     
     </div>
-
+<script src="./js/contact.js"></script>
 </body>
 </html>
