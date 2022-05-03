@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+header input  {
+    display: none;
+}
+
+header label  {
+    display: none;
+}
+
+@media (max-width:576px) {
+    body {
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 auto;
+        background-color: #EEEEEE;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+        color: #00ADB5;
+        text-decoration: none;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    header  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #222831;
+    }
+
+    header .logo {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    header nav {
+        height: 60px;
+    }
+
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #222831;
+        padding: 3.5em 1.5em 1em 1em;
+
+    }
+
+    header nav li {
+        list-style: none;
+        text-transform: uppercase;
+        opacity: 0.7;
+    }
+
+    header nav li:hover {
+        text-shadow: 0 0 1em #fff;
+    }
+
+    header label {
+        width: 70px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        font-size: 40px;
+        color: #00ADB5;
+        cursor: pointer;
+    }
+
+     header #toggle:checked + ul {
+        display: flex;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 30px;
+    }
+
+    /* header #toggle:checked + ul li {
+        margin-top: 1rem;
+    } */
+
+    /* footer */
+    footer {
+        display: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #393E46;
+        padding: 1.5em 1em;
+    }
+
+    footer .aPropos {
+        width: 90%;
+        text-align: center;
+    }
+
+    footer h4 {
+        color: #fff;
+        opacity: 0.9;
+    }
+
+    footer p {
+        color: #fff;
+        opacity: 0.5;
+    }
+    footer .linFol {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .footerLinks ul  {
+    padding: 0;
+    }
+
+    footer .footerLinks li>a {
+        opacity: 0.5;
+        padding-bottom: 0.2em;
+        color: #EEEEEE;
+    }
+
+    footer .footerLinks li>a:hover {
+        opacity: 1;
+        color: #EEEEEE;
+    }
+
+    footer .linFol>.followUs {
+        width: 40%;
+    }
+    footer .followUs img {
+        width: 25px;
+        height:auto;
+        background-color: #EEEEEE;
+        padding: 10px 10px;
+        border-radius: 50px;
+        margin-right:10px
+    }
+
+    footer .followUs ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    footer .followUs li img{
+        opacity: 0.5;
+    }
+
+    footer .followUs img[alt="Facebook"]:hover {
+        background-color: #4867AD; 
+        opacity: 1;
+    }
+    footer .followUs img[alt="Twitter"]:hover {
+        background-color: #33B0F2;
+        opacity: 1;
+    }
+    footer .followUs img[alt="Youtube"]:hover {
+        background-color: red; 
+        opacity: 1;
+    }
+    footer .followUs img[alt="Github"]:hover {
+        background-color: #FFF;
+        opacity: 1;
+    }
+    footer .followUs img[alt="Reddit"]:hover {
+        background-color: #F23C17;
+        opacity: 1;
+    }
+}
+
+/***********************************************************************/
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+    body {
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 auto;
+        background-color: #EEEEEE;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+        color: #00ADB5;
+        text-decoration: none;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    header  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #222831;
+    }
+
+    header .logo {
+        font-size: 34px;
+        font-weight: bold;
+        
+    }
+
+    header nav {
+        height: 65px;
+    }
+
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #222831;
+        padding: 3.5em 1.5em 1em 1em;
+    }
+
+    header nav li {
+        list-style: none;
+        text-transform: uppercase;
+        opacity: 0.7;
+    }
+
+    header nav li:hover {
+        text-shadow: 0 0 1em #fff;
+    }
+
+    header label {
+        width: 70px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        font-size: 40px;
+        color: #00ADB5;
+        cursor: pointer;
+    }
+
+     header #toggle:checked + ul {
+        display: flex;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 30px;
+    }
+
+    /* footer */
+
+    footer {
+        display: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #393E46;
+        padding: 1.5em 1em;
+    }
+
+    footer .aPropos {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    footer h4 {
+        color: #fff;
+        opacity: 0.9;
+    }
+
+    footer p {
+        color: #fff;
+        opacity: 0.5;
+    }
+    footer .linFol {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+
+    }
+
+    footer .footerLinks ul  {
+    padding: 0;
+    }
+
+    footer .footerLinks li>a {
+        opacity: 0.5;
+        padding-bottom: 0.2em;
+        color: #EEEEEE;
+    }
+
+    footer .footerLinks li>a:hover {
+        opacity: 1;
+        color: #EEEEEE;
+    }
+
+    footer .linFol>.followUs {
+        width: 40%;
+    }
+    footer .followUs img {
+        width: 25px;
+        height:auto;
+        background-color: #EEEEEE;
+        padding: 10px 10px;
+        border-radius: 50px;
+        margin-right:10px
+    }
+
+    footer .followUs ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    footer .followUs li img{
+        opacity: 0.5;
+    }
+
+    footer .followUs img[alt="Facebook"]:hover {
+        background-color: #4867AD; 
+        opacity: 1;
+    }
+    footer .followUs img[alt="Twitter"]:hover {
+        background-color: #33B0F2;
+        opacity: 1;
+    }
+    footer .followUs img[alt="Youtube"]:hover {
+        background-color: red; 
+        opacity: 1;
+    }
+    footer .followUs img[alt="Github"]:hover {
+        background-color: #FFF;
+        opacity: 1;
+    }
+    footer .followUs img[alt="Reddit"]:hover {
+        background-color: #F23C17;
+        opacity: 1;
+    }
+}
+
+/*********************************************************************/
+
+@media  (min-width: 768px) and (max-width: 991px) {
+
+    body {
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 auto;
+        background-color: #EEEEEE;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+        color: #00ADB5;
+        text-decoration: none;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    header  {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        background-color: #222831;
+    }
+
+    header .logo {
+        font-size: 36px;
+        font-weight: bold;
+        
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    header nav li {
+        list-style: none;
+        margin-left: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    header nav li a:hover {
+        list-style: none;
+        margin-left: 10px;
+        color: #fff;
+        padding: 10px 12px;
+        background-color: #00ADB5;
+        box-shadow: 0 0 1em #00656A;
+        border-radius: 5px;
+    }
+   
+    /* footer */
+    
+    footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: #393E46;
+        margin: 0 auto;
+    }
+
+    footer .aPropos {
+        width: 40%;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    footer h4 {
+        color: #fff;
+        opacity: 0.9;
+    }
+
+    footer p {
+        color: #fff;
+        opacity: 0.5;
+    }
+
+    footer .footerLinks ul  {
+    padding: 0;
+    }
+
+    footer .footerLinks li>a {
+        opacity: 0.5;
+        padding-bottom: 0.2em;
+        color: #EEEEEE;
+    }
+
+    footer .footerLinks li>a:hover {
+        opacity: 1;
+        color: #EEEEEE;
+    }
+
+  
+    footer .followUs img {
+        width: 25px;
+        height:auto;
+        background-color: #EEEEEE;
+        padding: 10px 10px;
+        border-radius: 50px;
+        margin-right:10px
+    }
+
+    footer .followUs ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    footer .followUs li img{
+        opacity: 0.5;
+    }
+
+    footer .followUs img[alt="Facebook"]:hover {
+        background-color: #4867AD; 
+        opacity: 1;
+    }
+    footer .followUs img[alt="Twitter"]:hover {
+        background-color: #33B0F2;
+        opacity: 1;
+    }
+    footer .followUs img[alt="Youtube"]:hover {
+        background-color: red; 
+        opacity: 1;
+    }
+    footer .followUs img[alt="Github"]:hover {
+        background-color: #FFF;
+        opacity: 1;
+    }
+    footer .followUs img[alt="Reddit"]:hover {
+        background-color: #F23C17;
+        opacity: 1;
+    }
+}
+
+/*************************************************************************/
+@media  (min-width: 992px) and (max-width:1199px){
+    /* commun */
+    body {
+        margin: 0 auto;
+
+    }
+
+    .container {
+        margin: 0 auto;
+        background-color: #EEEEEE;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+        color: #00ADB5;
+        text-decoration: none;
+    }
+
+    header, footer,  main>.resume, main>.features, main>.news, main>.slide {
+        padding: 0 10%;
+    }
+
+    li {
+        list-style-type: none;
+    }
+    /* header */
+
+    header  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #222831;
+    }
+
+    header .logo {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    
+    header nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    header nav li {
+        list-style: none;
+        margin-left: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    header nav li a:hover {
+        list-style: none;
+        margin-left: 20px;
+        color: #fff;
+        padding: 10px 12px;
+        background-color: #00ADB5;
+        border-radius:7px;
+        box-shadow: 0 0 3em #00656A;
+        
+    }
+    /* footer */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #393E46;
+    }
+
+    footer .aPropos {
+        width: 33%;
+    }
+
+    footer h4 {
+        color: #fff;
+        opacity: 0.9;
+    }
+
+    footer p {
+        color: #fff;
+        opacity: 0.5;
+    }
+
+    footer .linFol {
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .footerLinks ul  {
+        padding: 0;
+    }
+
+    footer .footerLinks li>a {
+        opacity: 0.5;
+        padding-bottom: 0.2em;
+        color: #EEEEEE;
+    }
+
+    footer .footerLinks li>a:hover {
+        opacity: 1;
+        color: #EEEEEE;
+    }
+
+    footer .linFol .followUs {
+        width: 33%;
+    }
+
+    footer .followUs img {
+        width: 25px;
+        height:auto;
+        background-color: #EEEEEE;
+        padding: 10px 10px;
+        border-radius: 50px;
+        margin-right:10px
+    }
+
+    footer .followUs ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    footer .followUs li img{
+        opacity: 0.5;
+    }
+
+    footer .followUs img[alt="Facebook"]:hover {
+        background-color: #4867AD; 
+        opacity: 1;
+    }
+    footer .followUs img[alt="Twitter"]:hover {
+        background-color: #33B0F2;
+        opacity: 1;
+    }
+    footer .followUs img[alt="Youtube"]:hover {
+        background-color: red; 
+        opacity: 1;
+    }
+    footer .followUs img[alt="Github"]:hover {
+        background-color: #FFF;
+        opacity: 1;
+    }
+    footer .followUs img[alt="Reddit"]:hover {
+        background-color: #F23C17;
+        opacity: 1;
+    }   
+}
+
+/*********************************************************************/
+
+@media  (min-width: 1200px) {
+        /* commun */
+        body {
+            margin: 0 auto;
+        }
+
+        .container {
+            margin: 0 auto;
+            background-color: #EEEEEE;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        a {
+            color: #00ADB5;
+            text-decoration: none;
+        }
+
+        header, footer,  main>.resume, main>.features, main>.news, main>.slide {
+            padding: 0 20%;
+        }
+
+        li {
+            list-style-type: none;
+        }
+        /* header */
+
+        header  {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #222831;
+        }
+
+        header .logo {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        header nav li {
+            list-style: none;
+            margin-left: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        header nav li a:hover {
+            list-style: none;
+            margin-left: 20px;
+            color: #fff;
+            padding: 10px 12px;
+            background-color: #00ADB5;
+            border-radius:7px;
+            box-shadow: 0 0 5em #00656A;
+            
+        }
+        /* footer */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: #393E46;
+        }
+
+        footer .aPropos {
+            width: 35%;
+        }
+
+        footer h4 {
+            color: #fff;
+            opacity: 0.9;
+        }
+
+        footer p {
+            color: #fff;
+            opacity: 0.5;
+        }
+
+        footer .linFol {
+            display: flex;
+            justify-content: space-between;
+            width: 55%;
+        }
+
+        footer .footerLinks ul  {
+        padding: 0;
+        }
+
+        footer .footerLinks li>a {
+            opacity: 0.5;
+            padding-bottom: 0.2em;
+            color: #EEEEEE;
+        }
+
+        footer .footerLinks li>a:hover {
+            opacity: 1;
+            color: #EEEEEE;
+        }
+        footer .followUs img {
+            width: 25px;
+            height:auto;
+            background-color: #EEEEEE;
+            padding: 10px 10px;
+            border-radius: 50px;
+            margin-right:10px
+        }
+
+        footer .followUs ul {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+        }
+
+        footer .followUs li img{
+            opacity: 0.5;
+        }
+
+        footer .followUs img[alt="Facebook"]:hover {
+            background-color: #4867AD; 
+            opacity: 1;
+        }
+        footer .followUs img[alt="Twitter"]:hover {
+            background-color: #33B0F2;
+            opacity: 1;
+        }
+        footer .followUs img[alt="Youtube"]:hover {
+            background-color: red; 
+            opacity: 1;
+        }
+        footer .followUs img[alt="Github"]:hover {
+            background-color: #FFF;
+            opacity: 1;
+        }
+        footer .followUs img[alt="Reddit"]:hover {
+            background-color: #F23C17;
+            opacity: 1;
+        }   
+ }
