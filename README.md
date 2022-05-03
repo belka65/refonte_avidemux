@@ -7,8 +7,12 @@ Le site officiel du logiciel date d'une autres époque , d'où l'idée de faire 
 
 Site officiel : [Avidemux] (http://fixounet.free.fr/avidemux/index.html) .
 
-    capture écran : ![](https://i.imgur.com/GuqFHk5.png) .
+capture écran :
+
+ ![](https://i.imgur.com/GuqFHk5.png) .
 
 Résultat éval Front (refonte ancien site avidemux) en live : (https://ifocode.alwaysdata.net/eval_front_avidemux/) .
 
-    capture écran : ![](https://i.imgur.com/vojVvcb.png) .
+capture écran :
+
+![](https://i.imgur.com/vojVvcb.png) .
